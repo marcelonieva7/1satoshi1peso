@@ -1,0 +1,213 @@
+.container {
+  min-height: 100vh;
+  background-color: #E6E6E6;
+  text-align: center;
+  padding: 5rem 1rem 8rem;
+  max-width: 1224px;
+  margin: 0 auto;
+}
+.prizeContainer h2 {
+  font-size: 2.5rem;
+  max-width: 850px;
+  margin: 0 auto;
+}
+.prizeContainer h4 {
+  font-size: 1.75rem;
+  font-weight: normal;
+}
+.prize h3 {
+  font-size: 2rem;
+}
+.prize > div {
+  margin-bottom: 1.5%;
+}
+.prize > div span {
+  background-color: black;
+  padding: 0.4rem 0.4rem;
+  margin: 0 0.18rem;
+  border-radius: 0.35rem;
+  font-weight: bold;
+  font-size: 2.25rem;
+  color: #FFFFFF;
+}
+.prize > div span:nth-last-of-type(1) {
+  font-weight: normal;
+}
+.prize a {
+  color: #80BF66;
+  font-size: 1.35rem;
+}
+.prizeContainer img {
+  width: 250px;
+  max-width: 55vw;
+  margin-top: 2rem;
+}
+.formContainer  h2 {
+ font-size: 3rem;
+}
+.formContainer  fieldset {
+  border: 2px solid #C0C0C0;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0;
+  justify-content: center;
+}
+input[type="radio" i] {
+  display: none;
+}
+.targetDate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 1rem;
+}
+.targetDate input{
+  font-size: 1.5rem;
+  padding: 1.2rem 1rem;
+  border-radius: 1.15rem;
+  color: #C0C0C0;
+  border: 3px solid;
+  border-color: #C0C0C0;
+  background-color: #FFFFFF;
+  margin-top: 1rem;
+}.betsList {
+  margin-bottom: 2rem;
+}
+.betsList h3 {
+  background-color: #80BF66;
+  color: #FFFFFF;
+  font-size: 1.35rem;
+  padding: 0.5rem 0;
+  margin-bottom: 5px;
+}
+.betsList div {
+  font-size: 1.35rem;
+  padding: 0.85rem;
+  text-align: left;
+  margin-bottom: 5px;
+  background-color: #DADADA;
+  text-align: center;
+}
+.betsList i {
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #80BF66;
+  margin-right: 1rem;
+}
+.betPrize {
+  font-weight: bold;
+  display: block;
+}
+.termsLabel {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.termsLabel span {
+  text-decoration: underline;
+}
+.betSize > span, .targetDate > label {
+  font-size: 1.3rem;
+}
+.betSize > div {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 1rem;
+}
+.formContainer button {
+  display: block;
+  font-size: 2.25rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  background-color: #80BF66;
+  color: #ffffff;
+  border-radius: 1rem;
+  padding: 1.25rem 4rem;
+  margin-inline: auto;
+  border: none;
+  margin: 2rem auto;
+}
+.formContainer > span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+.form_error {
+  color: red;
+  margin-top: 0.5rem;
+}
+input[type="radio"]+label, input[type="number"] {
+  color: #C0C0C0;
+  border: 0.25rem solid #C0C0C0;
+  background-color: #FFFFFF;
+  font-size: 1.5rem;
+  padding: 1.3rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+input[type="radio"]+label {
+  margin-right: 1rem;
+}
+input[type="radio"]:checked+label, input[type="radio"]:checked+label > input[type="number"], .targetDate input.green {
+  color: #80BF66;
+  font-weight: bold;
+  border-color: #80BF66;
+}
+input[type="number"] {
+  width: 10rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+  padding: 1.3rem 3.6rem 1.3rem 0.85rem;
+}
+input[type=number]:focus-visible {
+  outline: none;
+}
+input[type="radio"]+label:nth-last-child(1) {
+  border: none;
+  padding: 0;
+  position: relative;
+  margin-right: 0;
+}
+input[type="radio"]+label:nth-last-child(1) span {
+  position: absolute;
+  visibility: initial;
+  right: 1rem;
+  top: 1.5rem;
+}
+input[type=number]:invalid.red, input[type=number]:invalid.red + span {
+  color: red !important;
+  border-color: red !important;
+}
+input[type=date].red {
+  color: red !important;
+  border-color: red !important;
+}
+.expired i {
+  background-color: red;
+}
+@media screen and (min-width: 768px) {
+  .betPrize {
+    display: inline;
+  }
+  .betsList div {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .formContainer  fieldset {
+    flex-direction: row;
+  }
+  .targetDate input{
+    width: 14.5rem;
+  }.terms {
+    transform: scale(1.5);
+  }
+}
