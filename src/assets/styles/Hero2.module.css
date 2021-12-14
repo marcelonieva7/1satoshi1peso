@@ -1,0 +1,33 @@
+.container {
+  min-height: 30vh;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 7.5% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container span {
+  font-size: 1.5rem;
+}
+.container h2 {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+.container span:nth-last-child(1) {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 1.5rem;
+  font-weight: bold;
+  display: inline-block;
+}
+.parallax {
+  background-image: url('../images/1peso1satoshi.jpg');
+  min-height: 70vh;
+  background-attachment: fixed;
+  background-position: 60%;
+  background-repeat: no-repeat;
+  background-size: cover
+}
