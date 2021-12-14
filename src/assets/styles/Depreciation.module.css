@@ -63,6 +63,7 @@
   display: flex;
   position: relative;
   border-top: dashed 3px #000000;
+  height: 968.5px;
 }
 .depreciation_info {
   padding: 7rem 9% 5.5rem;
@@ -77,7 +78,7 @@
   font-weight: bold;
 }
 .depreciation_info p {
-  font-size: 1.15rem;
+  font-size: 1.35rem;
   margin: 0;
 }
 .depreciation_info p:nth-last-of-type(1) {
@@ -126,6 +127,32 @@
 }
 .depreciation_bills div:nth-last-of-type(1) {
   position: relative;
+}
+.period1 {
+  z-index: 99;
+  position: relative;
+  top: 48.8px
+}
+.period2 {
+  z-index: 99;
+  position: relative;
+  top: calc(4% - 2px)
+}
+.period3 {
+  z-index: 99;
+  position: relative;
+  top: calc(2.65% - 4px)
+}
+.period4 {
+  z-index: 99;
+  position: relative;
+  top: calc(1.55% - 5px)
+}
+.period5 {
+  z-index: 99;
+  position: relative;
+  top: -0.725%;
+  height: calc(100%)
 }
 .bill1 {
   width: 5.5%;
@@ -220,7 +247,7 @@
 }
 .bcra {
   position: absolute;
-  top: calc(33% - 28.65px);
+  top: calc(33.2% - 28.65px);
   left: calc(125% - 100px);
   width: 100%;
   z-index: 99;
@@ -235,7 +262,7 @@
   left: calc(60% - 18px);
 }
 .c20 img {
-  width: calc(46.31px + 10%);
+  width: calc(57px);
 }
 .box {
   border-right: dashed 2px #F5B42A;
@@ -254,7 +281,7 @@
   display: flex;
   align-items: center;
   text-align: end;
-  font-size: 0.7rem;
+  font-size: 1.15rem;
   font-weight: bold;
   color: #ffffff;
 }
@@ -327,139 +354,139 @@
 }
 .year1 {
   position: absolute;
-  top: calc(5.45% - 0.5rem);
+  top: calc(5.37% - 0.6875rem);
   right: 0;
 }
 .year2 {
+  top: calc(32.715% - 0.6875rem);
   position: absolute;
-  top: calc(32.725% - 0.5rem);
   right: 0;
 }
 .year3 {
+  top: calc(33.55% - 0.6875rem);
   position: absolute;
-  top: calc(33.57% - 0.5rem);
   right: 0;
 }
 .year4 {
+  top: calc(39.75% - 0.6875rem);
   position: absolute;
-  top: calc(39.6% - 0.5rem);
   right: 0;
 }
 .year5 {
+  top: calc(52.6% - 0.6875rem);
   position: absolute;
-  top: calc(52.4% - 0.5rem);
   right: 0;
 }
 .year6 {
+  top: calc(59.5% - 0.6875rem);
   position: absolute;
-  top: calc(59.2% - 0.5rem);
   right: 0;
 }
 .year7{
+  top: calc(61.15% - 0.6875rem);
   position: absolute;
-  top: calc(61.15% - 0.5rem);
   right: 0;
 }
 .year8 {
+  top: calc(62.3% - 0.6875rem);
   position: absolute;
-  top: calc(62.3% - 0.5rem);
   right: 0;
 }
 .year9 {
+  top: calc(64.65% - 0.6875rem);
   position: absolute;
-  top: calc(64.65% - 0.5rem);
   right: 0;
 }
 .year10 {
+  top: calc(66.8% - 0.6875rem);
   position: absolute;
-  top: calc(66.9% - 0.5rem);
   right: 0;
 }
 .year11 {
+  top: calc(67.75% - 0.6875rem);
   position: absolute;
-  top: calc(67.75% - 0.5rem);
   right: 0;
 }
 .year12 {
-  position: absolute;
   top: calc(67.99%);
+  position: absolute;
   right: 0;
 }
 .year13 {
+  top: calc(69.17%);
   position: absolute;
-  top: calc(69.27%);
   right: 0;
 }
 .year14 {
-  position: absolute;
   top: calc(69.92%);
+  position: absolute;
   right: 0;
 }
 .year15 {
-  position: absolute;
   top: calc(70.67%);
+  position: absolute;
   right: 0;
 }
 .year16 {
+  top: calc(72.65%);
   position: absolute;
-  top: calc(72.95%);
   right: 0;
 }
 .year17 {
+  top: calc(73.5%);
   position: absolute;
-  top: calc(73.75%);
   right: 0;
 }
 .year18 {
+  top: calc(74.2%);
   position: absolute;
-  top: calc(74.45%);
   right: 0;
 }
 .year19 {
+  top: calc(75%);
   position: absolute;
-  top: calc(75.2%);
   right: 0;
 }
 .year20 {
+  top: calc(82.7%);
   position: absolute;
-  top: calc(83%);
   right: 0;
 }
 .year21 {
+  top: calc(94.6%);
   position: absolute;
-  top: calc(94.8%);
   right: 0;
 }
 .year22 {
+  top: calc(95.4%);
   position: absolute;
-  top: calc(95.6%);
   right: 0;
 }
 .bill_5p {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(32.5% - 7.69px);
+  top: calc(32.65% - 7.69px);
   left: 30%;
 }
 .bill_5p img {
-  width: 20px
+  width: 23px
 }
 .bill_100p {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(33.3% - 8.125px);
+  top: calc(33.65% - 8.125px);
   left: 7%;
 }
 .bill_100p img {
-  width: 27px
+  width: 29px
 }
 .bill_1000p {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(39.47% - 7.93px);
+  top: calc(39.65% - 7.93px);
   left: 12%;
 }
 .bill_1000p img {
@@ -469,7 +496,7 @@
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(51.85% - 9.805px);
+  top: calc(52.2% - 9.805px);
   left: 12%;
 }
 .bill_10000pp img {
@@ -483,97 +510,93 @@
   left: -4%;
 }
 .bill_100pp img {
-  width: 25px
+  width: 32px
 }
 .bill_500p {
   z-index: 999;
   position: absolute;
   width: 100%;
   top: calc(61% - 5.945px);
-  left: 46%;
+  left: 55%;
 }
 .bill_500p img {
-  width: 27px
+  width: 34px
 }
 .bill_1000pA {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(62% - 6.07px);
-  left: 5%;
+  top: calc(62.23% - 6.07px);
+  left: 12%;
 }
 .bill_1000pA img {
-  width: 27px
+  width: 33px
 }
 .bill_10000pA {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(64.64% - 6.39px);
+  top: calc(64.6% - 6.39px);
   left: 9%;
 }
 .bill_10000pA img {
-  width: 30px
+  width: 43px
 }
 .bill_100000pA {
   z-index: 999;
   position: absolute;
   width: 100%;
   top: calc(66.7% - 6.86px);
-  left: 9%;
+  left: 5.5%;
 }
 .bill_100000pA img {
-  width: 35px
+  width: 50px
 }
 .bill_500000pA {
   z-index: 999;
   position: absolute;
   width: 100%;
   top: calc(67.55% - 7.095px);
-  left: 7.5%;
+  left: 7%;
 }
 .bill_500000pA img {
-  width: 35px
+  width: 45px
 }
 .bill_1000000pA {
   z-index: 999;
   position: absolute;
   width: 100%;
   top: calc(68.3% - 8.135px);
-  left: 50%;
+  left: 49%;
 }
 .bill_1000000pA img {
-  width: 45px
+  width: 55px
 }
 .bill_100ppV {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(69.85% - 6.735px);
-  left: 69%;
+  top: calc(69.5% - 6.735px);
+  left: 67%;
 }
 .bill_100ppV img {
-  width: 23px
+  width: 33px
 }
 .bill_5000pV {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(70.2% - 5.4px);
-  left: -35%;
-}
-.bill_5000pV img {
-  width: 20px
+  display: none;
 }
 .bill_10000ppV {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(70.7% - 6.865px);
+  top: calc(70.5% - 6.865px);
   left: 18%;
 }
 .bill_10000ppV img {
-  width: 30px
+  width: 40px
 }
 .bill_100ppN {
   z-index: 999;
@@ -589,61 +612,61 @@
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(70.8% - 7.97px);
-  left: -5%;
+  top: calc(70.55% - 7.97px);
+  left: calc(8px - 10%);
 }
 .bill_100ppR img {
-  width: 25px
+  width: 30px
 }
 .bill_1000pR {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(73.4% - 5.955px);
+  top: calc(73.2% - 5.955px);
   left: 4%;
 }
 .bill_1000pR img {
-  width: 25px
+  width: 31.5px
 }
 .bill_50000pR {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(74% - 6.615px);
+  top: calc(73.9% - 6.615px);
   left: 60%;
 }
 .bill_50000pR img {
-  width: 30px
+  width: 38px
 }
 .bill_500000ppR {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(74.85% - 8.485px);
+  top: calc(74.5% - 8.485px);
   left: 8%;
 }
 .bill_500000ppR img {
-  width: 40px
+  width: 45px
 }
 .bill_patacon {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(83.6% - 8.04px);
+  top: calc(83.35% - 8.595px);
   left: 19%;
 }
 .bill_patacon img {
-  width: 38px;
+  width: 41px;
 }
 .bill_lecop {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(85.34% - 8.875px);
+  top: calc(84.8% - 8.875px);
   left: 65%;
 }
 .bill_lecop img {
-  width: 33px;
+  width: 35px;
 }
 .bill_500pN {
   z-index: 999;
@@ -659,7 +682,7 @@
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(96% - 7.69px);
+  top: calc(96.1% - 7.69px);
   left: 8%;
 }
 .bill_1000pN img {
@@ -669,113 +692,87 @@
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(72.27% - 5.51px);
-  left: calc(1% - 19.08px);
+  top: calc(72.27% - 6.865px);
+  left: calc(-10% - 19.015px);
 }
 .remove00_1985 img {
-  width: 40px
+  width: 52px
 }
 .remove00_1970 {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(59% - 6.07px);
+  top: calc(59.25% - 6.07px);
   left: 18%;
 }
 .remove00_1970 img {
-  width: 45px
+  width: 55px
 }
 .remove00_1991 {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(77.85% - 6.07px);
-  left: calc(-10% - 20px);
+  top: calc(77.8% - 7.2px);
+  left: calc(-10% - 22.135px);
 }
 .remove00_1991 img {
-  width: 45px
+  width: 55px
 }
 .remove0000_1983 {
   z-index: 999;
   position: absolute;
   width: 100%;
   top: calc(71.8% - 6.205px);
-  left: calc(-12% - 23px);
+  left: calc(-12% - 31px);
 }
 .remove0000_1983 img {
-  width: 60px
-}
-.bill_1000pN {
-  z-index: 999;
-  position: absolute;
-  width: 100%;
-  top: calc(96% - 7.69px);
-  left: 8%;
-}
-.bill_1000pN img {
-  width: 31px
+  width: 70px
 }
 .pesoMN {
   position: absolute;
   top: calc(48% - 2.9rem);
-  left: 20%;
+  left: 4%;
   z-index: 999;
 }
 .pesoLey {
   position: absolute;
   top: calc(65% - 1.9rem);
-  left: 20%;
+  left: 4%;
   z-index: 999;
 }
 .pesoArgentino {
   position: absolute;
-  top: calc(70.25% - 0.75rem);
-  left: 20%;
+  top: calc(70.25% - 1.375rem);
+  left: 4%;
   z-index: 999;
 }
 .austral {
   position: absolute;
   top: calc(73.25% - 0.92rem);
-  left: 20%;
+  left: 4%;
   z-index: 999;
 }
 .pesoArgentino2 {
   position: absolute;
   top: calc(88.38% - 1.9rem);
-  left: 20%;
+  left: 4%;
   z-index: 999;
-}
-.boxxx {
-  background: 
-    linear-gradient(#b81623 0 0) top left,
-    linear-gradient(#F5B42A 33%, rgba(255,255,255,0) 0%) top left calc(9% + 13%),
-    linear-gradient(#F5B42A 33%, rgba(255,255,255,0) 0%) top left calc(22% + 13%),
-    linear-gradient(#F5B42A 33%, rgba(255,255,255,0) 0%) top left calc(35% + 13%),
-    linear-gradient(#F5B42A 33%, rgba(255,255,255,0) 0%) top left calc(48% + 13%),
-    linear-gradient(#F5B42A 33%, rgba(255,255,255,0) 0%) top left calc(61% + 13%),
-    linear-gradient(#F5B42A 33%, rgba(255,255,255,0) 0%) top left calc(74% + 13%)
-  ;
-  background-size:
-    9% 100%,
-    3px 30px,
-    3px 30px,
-    3px 30px,
-    3px 30px,
-    3px 30px,
-    3px 30px
-  ;
-  background-repeat:
-    no-repeat,
-    repeat-y,
-    repeat-y,
-    repeat-y,
-    repeat-y,
-    repeat-y,
-    repeat-y
-  ;
 }
 .top {
   z-index: 99999 !important;
+}
+.bill_10000pN {
+  position: absolute;
+  bottom: -40.5%;
+  left: 44%;
+  width: 12%
+}
+.bill_10000pN img {
+  width: 100%;
+}
+.bg_question {
+  width: calc(51.7%);
+  height: 29.92px;
 }
 @media screen and (min-width: 380px) {
   .depreciation_bills span:nth-of-type(1) {
@@ -783,14 +780,27 @@
   }
 }
 @media screen and (min-width: 480px) {
-  .year {
-    font-size: 1.15rem;
+  .container {
+    height: auto;
+  }
+  .period1 {
+    top: 5%
+  }
+  .period2 {
+    top: 4%
+  }
+  .period3 {
+    top: 2.65%
+  }
+  .period4 {
+    top: 1.55%
+  }
+  .period5 {
+    top: -0.166%;
+    height: calc(100.5% - 6px)
   }
   .year0 {
     top: calc(4.25% - 0.9583rem);
-  }
-  .year1 {
-    top: calc(5.37% - 0.6875rem);
   }
   .year2 {
     top: calc(32.715% - 0.9583rem);
@@ -942,6 +952,7 @@
   .bill_5000pV {
     top: 69.85%;
     left: -35%;
+    display: block;
   }
   .bill_5000pV img {
     width: 35%;
@@ -1044,16 +1055,32 @@
   .remove0000_1983 img {
     width: 85%;
   }
-  .bill_1000pN {
-    top: 95.3%;
-    left: 8%;
+  .pesoMN {
+    left: 20%;
   }
-  .bill_1000pN img {
-    width: 52.5%;
+  .pesoLey {
+    left: 20%;
   }
   .pesoArgentino {
-    top: calc(70.25% - 1.375rem);
     left: 20%;
+  }
+  .austral {
+    left: 20%;
+  }
+  .pesoArgentino2 {
+    left: 20%;
+  }
+  .bill_10000pN {
+    bottom: -27.5%;
+    left: 45%;
+    width: 10%
+  }
+  .bill_10000pN img {
+    width: 100%;
+  }
+  .bg_question {
+    width: calc(51.7%);
+    height: auto;
   }
 }
 @media screen and (min-width: 768px) {

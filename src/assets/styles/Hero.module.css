@@ -5,7 +5,7 @@
 }
 .main {
   height: 100vh;
-  min-height: 65vw;
+  min-height: 800px;
   background-size: cover;
   position: relative;
   overflow: hidden;
@@ -24,7 +24,7 @@
   display: block;
   text-align: center;
   margin-block: 0.25rem;
-  font-size: 1rem;
+  font-size: 1.3rem;
   max-width: 80%;
   margin-inline: auto;
 }
@@ -140,8 +140,14 @@
     width: 300px;
     left: calc(50% - 150px);
   }
+  .satoshi_info > span {
+    font-size: 1rem;
+  }
 }
 @media screen and (min-width: 1024px) {
+  .main {
+    min-height: 65vw;
+  }
   .satoshiCoin {
     width: 450px;
     left: calc(50% - 225px);

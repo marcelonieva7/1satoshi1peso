@@ -309,20 +309,20 @@ const Depreciation = () => {
           </Slide>
         </div>
         <div className={Styles.box}>
-          <Fade triggerOnce duration={1350} style={{zIndex: '99', position: 'relative', top: '5%'}}>
-            <img src="images/p1.svg" style={{width: 'calc(314% + 6px)'}} alt="1899 - 1970" />
+          <Fade triggerOnce duration={1350} className={Styles.period1}>
+            <img src="images/p1.svg" style={{width: 'calc(314% + 6px)', minHeight: '534px'}} alt="1899 - 1970" />
           </Fade>
-          <Fade triggerOnce duration={1350} style={{zIndex: '99', position: 'relative', top: '4%'}}>
-            <img src="images/p2.svg" style={{width: 'calc(614% + 10px)'}} alt="1970 - 1983" />
+          <Fade triggerOnce duration={1350} className={Styles.period2}>
+            <img src="images/p2.svg" style={{width: 'calc(614% + 10px)', minHeight:'111.8px'}} alt="1970 - 1983" />
           </Fade>
-          <Fade triggerOnce duration={1350} style={{zIndex: '99', position: 'relative', top: '2.65%'}}>
-            <img src="images/p3.svg" style={{width: 'calc(214% + 4px)'}} alt="1983 - 1985" />
+          <Fade triggerOnce duration={1350} className={Styles.period3}>
+            <img src="images/p3.svg" style={{width: 'calc(214% + 4px)', minHeight:'19px'}} alt="1983 - 1985" />
           </Fade>
-          <Fade triggerOnce duration={1350} style={{zIndex: '99', position: 'relative', top: '1.55%'}}>
-            <img src="images/p4.svg" style={{width: 'calc(514% + 8px)'}} alt="1985 - 1991" />
+          <Fade triggerOnce duration={1350} className={Styles.period4}>
+            <img src="images/p4.svg" style={{width: 'calc(514% + 8px)', minHeight:'59px'}} alt="1985 - 1991" />
           </Fade>
-          <Fade triggerOnce duration={1350} style={{zIndex: '99', position: 'relative', top: '-0.166%', height: 'calc(100.5% - 6px)'}}>
-            <img src="images/p5.svg" style={{width: 'calc(275% + 4px)',height: '24.8%'}} alt="1991 - 2020" />
+          <Fade triggerOnce duration={1350} className={Styles.period5}>
+            <img src="images/p5.svg" style={{width: 'calc(275% + 4px)',height: '24.8%', minHeight:'240.5px'}} alt="1991 - 2020" />
           </Fade>
           <Zoom triggerOnce duration={1500} className={Styles.c20}>
             <img src="images/20c.svg" alt="20 centavos" />
@@ -457,15 +457,15 @@ const Depreciation = () => {
         </div>
       </section>
     </div>
-    <div style={{position: 'relative', top: '0', left: '0', backgroundColor: '#E6E6E6', borderBottom: 'solid 0.275rem #E26E2B'}} >
-      <Fade triggerOnce duration={1550}>
-        <img src="images/rallas2.svg"  style={{width: 'calc(51.7%)'}} alt="fondo de rallas" />
-      </Fade>
+    <div style={{position: 'relative', top: '0', left: '0', backgroundColor: '#E6E6E6', borderBottom: 'solid 0.275rem #E26E2B'}}>
+      {/* <Fade triggerOnce duration={1550}> */}
+        <img src="images/rallas2.svg"  className={Styles.bg_question} alt="fondo de rallas en diagonal" />
+      {/* </Fade> */}
       <Zoom triggerOnce duration={1500} style={{position: 'absolute', top: '-20%', left: '47.5%', width: '5%'}}>
         <img src="images/question.svg"  style={{width: '100%'}} alt="signo de pregunta" />
       </Zoom>
-      <Zoom triggerOnce duration={1500} style={{position: 'absolute', bottom: '-27.5%', left: '45%', width: '10%'}}>
-        <img src="images/10000pN.svg"  style={{width: '100%'}} alt="10000 pesos" />
+      <Zoom triggerOnce duration={1500} className={Styles.bill_10000pN}>
+        <img src="images/10000pN.svg"  alt="10000 pesos" />
       </Zoom>
     </div>
     </section>
