@@ -1,16 +1,7 @@
 .container_hero {
-  background: 
-    linear-gradient(#6CA7D9 0 0) top left,
-    linear-gradient(#E6E6E6 0 0) top left calc(9vw - 1.5px)
-  ;
-  background-size:
-    9% 100%,
-    100% 100%
-  ;
-  background-repeat:
-    no-repeat,
-    no-repeat
-  ;
+  background-image: linear-gradient(#6CA7D9 100%, rgba(255,255,255,0) 0%);
+  background-size: 9%;
+  background-repeat: repeat-y;
 }
 .main {
   height: 100vh;
