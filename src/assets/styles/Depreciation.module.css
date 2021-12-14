@@ -1,0 +1,1240 @@
+.main {
+  height: 100vh;
+  min-height: 65vw;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.main p {
+  text-align: center;
+  margin-block: 0.25rem;
+  font-size: 0.75rem;
+}
+.progress {
+  position: absolute;
+  bottom: 10%;
+  left: 7.5%
+}
+.progress_Img {
+  position: absolute;
+  bottom: 12%;
+}
+.progress_Horse {
+  position: absolute;
+  bottom: calc(12% + 33.5px);
+  z-index: 99;
+  width: 150px;
+}
+.satoshi {
+  border-radius: 10px;
+  border: solid 2px black;
+  background-color: #282828;
+  color: #ffffff;
+  width: fit-content;
+  margin-inline: auto;
+  margin-top: 37vh;
+}
+.satoshi h1 {
+  text-align: center;
+  margin-block: 0.5rem;
+  font-size: 2.5rem;
+}
+.satoshi span {
+  background-color: black;
+  padding: 0.35rem 0.65rem;
+  margin: 0 0.18rem;
+  border-radius: 10%;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+.satoshi span:nth-child(2) {
+  background-color: inherit;
+  padding: 0;
+  margin: 0;
+}
+.satoshi span:nth-last-of-type(1) {
+  font-weight: normal;
+}
+.satoshi > div{
+  border-top: 3px solid #000000;
+  padding: 1.5rem 2rem;
+}
+.container {
+  display: flex;
+  position: relative;
+  border-top: dashed 3px #000000;
+}
+.depreciation_info {
+  padding: 7rem 9% 5.5rem;
+  text-align: center;
+  background-image: linear-gradient(#6CA7D9 100%, rgba(255,255,255,0) 0%);
+  background-size: 9%;
+  background-repeat: repeat-y;
+}
+.depreciation_info h2 {
+  margin: 0 0 2.25rem;
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+.depreciation_info p {
+  font-size: 1.15rem;
+  margin: 0;
+}
+.depreciation_info p:nth-last-of-type(1) {
+  margin: 0 0 1.15rem;
+}
+.depreciation_info a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+.depreciation_bills {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  background-color: #E6E6E6;
+  background-image: linear-gradient(#6CA7D9 100%, rgba(255,255,255,0) 0%);
+  background-size: 9%;
+  background-repeat: repeat-y;
+}
+.depreciation_bills span:nth-of-type(1) {
+  font-size: 0.9rem;
+  display: none;
+}
+.depreciation_bills span:nth-last-of-type(1) {
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+.depreciation_bills div span:nth-last-of-type(1):nth-of-type(1) {
+  font-size: 0.85rem;
+  display: block;
+}
+.bill2 span:nth-of-type(1) {
+  font-size: 0.85rem;
+}
+.depreciation_bills div {
+  background-Color: #F5B42A;
+  text-align: center;
+  border-radius: 50%;
+  display: flex;
+  flex-Direction: column;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+}
+.depreciation_bills div:nth-last-of-type(1) {
+  position: relative;
+}
+.bill1 {
+  width: 5.5%;
+  height: 5.5vw;
+  min-height: calc(30px * 0.55);
+  left: calc(9% - 5.5%/2);
+}
+.bill2 {
+  width: 7%;
+  height: 7vw;
+  min-height: calc(30px * 0.7);
+  left: calc(22% - 7%/2);
+}
+.bill3 {
+  width: 8%;
+  height: 8vw;
+  min-height: calc(30px * 0.8);
+  left: calc(35% - 8%/2);
+}
+.bill4 {
+  width: 9%;
+  height: 9vw;
+  min-height: calc(30px * 0.9);
+  left: calc(48% - 9%/2);
+}
+.bill5 {
+  width: 10%;
+  height: 10vw;
+  min-height: calc(30px * 1);
+  left: calc(61% - 10%/2);
+}
+.bill6 {
+  width: 11%;
+  height: 11vw;
+  min-height: calc(30px * 1.1);
+  left: calc(74% - 11%/2);
+}
+.bill7 {
+  width: 12%;
+  height: 12vw;
+  min-height: calc(30px * 1.2);
+  left: calc(87% - 12%/2);
+}
+.stickySpace {
+  height: 2.75vw;
+  min-height: 17.5px;
+  background: 
+    linear-gradient(#6CA7D9 0 0) top left,
+    linear-gradient(#E6E6E6 0 0) top left calc(9vw - 1.5px)
+  ;
+  background-size:
+    9% 100%,
+    100% 100%
+  ;
+  background-repeat:
+    no-repeat,
+    no-repeat
+  ;
+  display: flex;
+  width: 100%;
+}
+.coin {
+  position: absolute;
+  width: 35px;
+  top: -17px;
+  left: calc(563% - 17.5px);
+  z-index: 99;
+}
+.peso {
+  position: absolute;
+  top: 25px;
+  left: calc(563% - 143.59px / 2);
+  color: #ffffff;
+  background-color: #000000;
+  padding: 0.65rem;
+  border-radius: 10px;
+  width: max-content;
+  z-index: 99;
+}
+.peso span {
+  display: block;
+}
+.stability {
+  position: absolute;
+  top: calc(19% - 39.1px);
+  left: calc(125% - 62.5px);
+  width: 100%;
+  z-index: 99;
+}
+.stability img {
+  width: 125px;
+}
+.bcra {
+  position: absolute;
+  top: calc(33% - 28.65px);
+  left: calc(125% - 100px);
+  width: 100%;
+  z-index: 99;
+}
+.bcra img {
+  width: 200px;
+}
+.c20 {
+  position: absolute;
+  width: 100%;
+  top: calc(5.25% - 6.676425px);
+  left: calc(60% - 18px);
+}
+.c20 img {
+  width: calc(46.31px + 10%);
+}
+.box {
+  border-right: dashed 2px #F5B42A;
+  width: 13%;
+  position: relative;
+}
+.box:nth-child(1) {
+  width: 9%;
+  border-right: inherit;
+  background-color: #6CA7D9;
+}
+.box:nth-child(8) {
+  border-right: inherit;
+}
+.year {
+  display: flex;
+  align-items: center;
+  text-align: end;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+.year img {
+  height: 0.5rem;
+}
+.year0 {
+  position: absolute;
+  top: calc(4.25% - 1rem);
+  right: 0;
+  padding-right: 0.55rem;
+}
+.year0 span {
+  font-weight: normal;
+}
+.yearM {
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding-right: 0.3rem;
+}
+.yearM1 {
+  position: absolute;
+  top: calc(6.15% - 0.5rem);
+  right: 0;
+}
+.yearM2 {
+  position: absolute;
+  top: calc(13.65% - 0.5rem);
+  right: 0;
+}
+.yearM3 {
+  position: absolute;
+  top: calc(21.15% - 0.5rem);
+  right: 0;
+}
+.yearM4 {
+  position: absolute;
+  top: calc(28.65% - 0.5rem);
+  right: 0;
+}
+.yearM5 {
+  position: absolute;
+  top: calc(36.15% - 0.5rem);
+  right: 0;
+}
+.yearM6 {
+  position: absolute;
+  top: calc(43.65% - 0.5rem);
+  right: 0;
+}
+.yearM7 {
+  position: absolute;
+  top: calc(51.15% - 0.5rem);
+  right: 0;
+}
+.yearM8 {
+  position: absolute;
+  top: calc(82.4% - 0.5625rem);
+  right: 0;
+}
+.yearM9 {
+  position: absolute;
+  top: calc(90.15% - 0.5rem);
+  right: 0;
+}
+.yearM10 {
+  position: absolute;
+  top: calc(97.65% - 0.5rem);
+  right: 0;
+}
+.year1 {
+  position: absolute;
+  top: calc(5.45% - 0.5rem);
+  right: 0;
+}
+.year2 {
+  position: absolute;
+  top: calc(32.725% - 0.5rem);
+  right: 0;
+}
+.year3 {
+  position: absolute;
+  top: calc(33.57% - 0.5rem);
+  right: 0;
+}
+.year4 {
+  position: absolute;
+  top: calc(39.6% - 0.5rem);
+  right: 0;
+}
+.year5 {
+  position: absolute;
+  top: calc(52.4% - 0.5rem);
+  right: 0;
+}
+.year6 {
+  position: absolute;
+  top: calc(59.2% - 0.5rem);
+  right: 0;
+}
+.year7{
+  position: absolute;
+  top: calc(61.15% - 0.5rem);
+  right: 0;
+}
+.year8 {
+  position: absolute;
+  top: calc(62.3% - 0.5rem);
+  right: 0;
+}
+.year9 {
+  position: absolute;
+  top: calc(64.65% - 0.5rem);
+  right: 0;
+}
+.year10 {
+  position: absolute;
+  top: calc(66.9% - 0.5rem);
+  right: 0;
+}
+.year11 {
+  position: absolute;
+  top: calc(67.75% - 0.5rem);
+  right: 0;
+}
+.year12 {
+  position: absolute;
+  top: calc(67.99%);
+  right: 0;
+}
+.year13 {
+  position: absolute;
+  top: calc(69.27%);
+  right: 0;
+}
+.year14 {
+  position: absolute;
+  top: calc(69.92%);
+  right: 0;
+}
+.year15 {
+  position: absolute;
+  top: calc(70.67%);
+  right: 0;
+}
+.year16 {
+  position: absolute;
+  top: calc(72.95%);
+  right: 0;
+}
+.year17 {
+  position: absolute;
+  top: calc(73.75%);
+  right: 0;
+}
+.year18 {
+  position: absolute;
+  top: calc(74.45%);
+  right: 0;
+}
+.year19 {
+  position: absolute;
+  top: calc(75.2%);
+  right: 0;
+}
+.year20 {
+  position: absolute;
+  top: calc(83%);
+  right: 0;
+}
+.year21 {
+  position: absolute;
+  top: calc(94.8%);
+  right: 0;
+}
+.year22 {
+  position: absolute;
+  top: calc(95.6%);
+  right: 0;
+}
+.bill_5p {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(32.5% - 7.69px);
+  left: 30%;
+}
+.bill_5p img {
+  width: 20px
+}
+.bill_100p {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(33.3% - 8.125px);
+  left: 7%;
+}
+.bill_100p img {
+  width: 27px
+}
+.bill_1000p {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(39.47% - 7.93px);
+  left: 12%;
+}
+.bill_1000p img {
+  width: 36px
+}
+.bill_10000pp {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(51.85% - 9.805px);
+  left: 12%;
+}
+.bill_10000pp img {
+  width: 47px
+}
+.bill_100pp {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(59.7% - 6.78px);
+  left: -4%;
+}
+.bill_100pp img {
+  width: 25px
+}
+.bill_500p {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(61% - 5.945px);
+  left: 46%;
+}
+.bill_500p img {
+  width: 27px
+}
+.bill_1000pA {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(62% - 6.07px);
+  left: 5%;
+}
+.bill_1000pA img {
+  width: 27px
+}
+.bill_10000pA {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(64.64% - 6.39px);
+  left: 9%;
+}
+.bill_10000pA img {
+  width: 30px
+}
+.bill_100000pA {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(66.7% - 6.86px);
+  left: 9%;
+}
+.bill_100000pA img {
+  width: 35px
+}
+.bill_500000pA {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(67.55% - 7.095px);
+  left: 7.5%;
+}
+.bill_500000pA img {
+  width: 35px
+}
+.bill_1000000pA {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(68.3% - 8.135px);
+  left: 50%;
+}
+.bill_1000000pA img {
+  width: 45px
+}
+.bill_100ppV {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(69.85% - 6.735px);
+  left: 69%;
+}
+.bill_100ppV img {
+  width: 23px
+}
+.bill_5000pV {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(70.2% - 5.4px);
+  left: -35%;
+}
+.bill_5000pV img {
+  width: 20px
+}
+.bill_10000ppV {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(70.7% - 6.865px);
+  left: 18%;
+}
+.bill_10000ppV img {
+  width: 30px
+}
+.bill_100ppN {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(75.45% - 10.735px);
+  left: 3%;
+}
+.bill_100ppN img {
+  width: 30px
+}
+.bill_100ppR {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(70.8% - 7.97px);
+  left: -5%;
+}
+.bill_100ppR img {
+  width: 25px
+}
+.bill_1000pR {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(73.4% - 5.955px);
+  left: 4%;
+}
+.bill_1000pR img {
+  width: 25px
+}
+.bill_50000pR {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(74% - 6.615px);
+  left: 60%;
+}
+.bill_50000pR img {
+  width: 30px
+}
+.bill_500000ppR {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(74.85% - 8.485px);
+  left: 8%;
+}
+.bill_500000ppR img {
+  width: 40px
+}
+.bill_patacon {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(83.6% - 8.04px);
+  left: 19%;
+}
+.bill_patacon img {
+  width: 38px;
+}
+.bill_lecop {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(85.34% - 8.875px);
+  left: 65%;
+}
+.bill_lecop img {
+  width: 33px;
+}
+.bill_500pN {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(95.3% - 8.43px);
+  left: 54%;
+}
+.bill_500pN img {
+  width: 28px
+}
+.bill_1000pN {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(96% - 7.69px);
+  left: 8%;
+}
+.bill_1000pN img {
+  width: 31px
+}
+.remove00_1985 {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(72.27% - 5.51px);
+  left: calc(1% - 19.08px);
+}
+.remove00_1985 img {
+  width: 40px
+}
+.remove00_1970 {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(59% - 6.07px);
+  left: 18%;
+}
+.remove00_1970 img {
+  width: 45px
+}
+.remove00_1991 {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(77.85% - 6.07px);
+  left: calc(-10% - 20px);
+}
+.remove00_1991 img {
+  width: 45px
+}
+.remove0000_1983 {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(71.8% - 6.205px);
+  left: calc(-12% - 23px);
+}
+.remove0000_1983 img {
+  width: 60px
+}
+.bill_1000pN {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: calc(96% - 7.69px);
+  left: 8%;
+}
+.bill_1000pN img {
+  width: 31px
+}
+.pesoMN {
+  position: absolute;
+  top: calc(48% - 2.9rem);
+  left: 20%;
+  z-index: 999;
+}
+.pesoLey {
+  position: absolute;
+  top: calc(65% - 1.9rem);
+  left: 20%;
+  z-index: 999;
+}
+.pesoArgentino {
+  position: absolute;
+  top: calc(70.25% - 0.75rem);
+  left: 20%;
+  z-index: 999;
+}
+.austral {
+  position: absolute;
+  top: calc(73.25% - 0.92rem);
+  left: 20%;
+  z-index: 999;
+}
+.pesoArgentino2 {
+  position: absolute;
+  top: calc(88.38% - 1.9rem);
+  left: 20%;
+  z-index: 999;
+}
+.boxxx {
+  background: 
+    linear-gradient(#b81623 0 0) top left,
+    linear-gradient(#F5B42A 33%, rgba(255,255,255,0) 0%) top left calc(9% + 13%),
+    linear-gradient(#F5B42A 33%, rgba(255,255,255,0) 0%) top left calc(22% + 13%),
+    linear-gradient(#F5B42A 33%, rgba(255,255,255,0) 0%) top left calc(35% + 13%),
+    linear-gradient(#F5B42A 33%, rgba(255,255,255,0) 0%) top left calc(48% + 13%),
+    linear-gradient(#F5B42A 33%, rgba(255,255,255,0) 0%) top left calc(61% + 13%),
+    linear-gradient(#F5B42A 33%, rgba(255,255,255,0) 0%) top left calc(74% + 13%)
+  ;
+  background-size:
+    9% 100%,
+    3px 30px,
+    3px 30px,
+    3px 30px,
+    3px 30px,
+    3px 30px,
+    3px 30px
+  ;
+  background-repeat:
+    no-repeat,
+    repeat-y,
+    repeat-y,
+    repeat-y,
+    repeat-y,
+    repeat-y,
+    repeat-y
+  ;
+}
+.top {
+  z-index: 99999;
+}
+@media screen and (min-width: 380px) {
+  .depreciation_bills span:nth-of-type(1) {
+    display: block;
+  }
+}
+@media screen and (min-width: 480px) {
+  .year {
+    font-size: 1.15rem;
+  }
+  .year0 {
+    top: calc(4.25% - 0.9583rem);
+  }
+  .year1 {
+    top: calc(5.37% - 0.6875rem);
+  }
+  .year2 {
+    top: calc(32.715% - 0.9583rem);
+  }
+  .year3 {
+    top: calc(33.55% - 0.9583rem);
+  }
+  .year4 {
+    top: calc(39.635% - 0.9583rem);
+  }
+  .year5 {
+    top: calc(52.44% - 0.6875rem);
+  }
+  .year6 {
+    top: calc(59.31% - 0.9583rem);
+  }
+  .year7 {
+    top: calc(61.26% - 0.9583rem);
+  }
+  .year8 {
+    top: calc(62.43% - 0.9583rem);
+  }
+  .year9 {
+    top: calc(64.82% - 0.9583rem);
+  }
+  .year10 {
+    top: calc(66.98% - 0.9583rem);
+  }
+  .year11 {
+    top: calc(67.86% - 0.9583rem);
+  }
+  .year12 {
+    top: calc(68.64% - 0.9583rem);
+  }
+  .year13 {
+    top: calc(69.8% - 0.6875rem);
+  }
+  .year14 {
+    top: calc(70.38% - 0.6875rem);
+  }
+  .year15 {
+    top: calc(71.05% - 0.6875rem);
+  }
+  .year16 {
+    top: calc(73.23% - 0.6875rem);
+  }
+  .year17 {
+    top: calc(74.05% - 0.6875rem);
+  }
+  .year18 {
+    top: calc(74.85% - 0.6875rem);
+  }
+  .year19 {
+    top: calc(75.6% - 0.6875rem);
+  }
+  .year20 {
+    top: calc(83.315% - 0.6875rem);
+  }
+  .year21 {
+    top: calc(95.16% - 0.6875rem);
+  }
+  .year22 {
+    top: calc(96.04% - 0.6875rem);
+  }
+  .bill_5p {
+    top: 31.8%;
+    left: 30%;
+  }
+  .bill_5p img {
+    width: 33%;
+  }
+  .bill_100p {
+    top: 32.7%;
+    left: 4.5%;
+  }
+  .bill_100p img {
+    width: 45%;
+  }
+  .bill_1000p {
+    top: 38.75%;
+    left: 12%;
+  }
+  .bill_1000p img {
+    width: 60%;
+  }
+  .bill_10000pp {
+    top: 51.2%;
+    left: 12%;
+  }
+  .bill_10000pp img {
+    width: 78%;
+  }
+  .bill_100pp {
+    top: 59.1%;
+    left: -4%;
+  }
+  .bill_100pp img {
+    width: 50%;
+  }
+  .bill_500p {
+    top: 60.45%;
+    left: 47%;
+  }
+  .bill_500p img {
+    width: 50%;
+  }
+  .bill_1000pA {
+    top: 61.6%;
+    left: 5%;
+  }
+  .bill_1000pA img {
+    width: 50%;
+  }
+  .bill_10000pA {
+    top: 63.95%;
+    left: 9%;
+  }
+  .bill_10000pA img {
+    width: 65%;
+  }
+  .bill_100000pA {
+    top: 66.2%;
+    left: 9%;
+  }
+  .bill_100000pA img {
+    width: 72%;
+  }
+  .bill_500000pA {
+    top: 67%;
+    left: 8%;
+  }
+  .bill_500000pA img {
+    width: 69%;
+  }
+  .bill_1000000pA {
+    top: 67.7%;
+    left: 50%;
+  }
+  .bill_1000000pA img {
+    width: 78%;
+  }
+  .bill_100ppV {
+    top: 68.85%;
+    left: 67%;
+  }
+  .bill_100ppV img {
+    width: 50%;
+  }
+  .bill_5000pV {
+    top: 69.85%;
+    left: -35%;
+  }
+  .bill_5000pV img {
+    width: 35%;
+  }
+  .bill_10000ppV {
+    top: 70.15%;
+    left: 18%;
+  }
+  .bill_10000ppV img {
+    width: 50%;
+  }
+  .bill_100ppN {
+    top: 74.13%;
+    left: 3%;
+  }
+  .bill_100ppN img {
+    width: 55%;
+  }
+  .bill_100ppR {
+    top: 70%;
+    left: -5%;
+  }
+  .bill_100ppR img {
+    width: 45%;
+  }
+  .bill_1000pR {
+    top: 72.55%;
+    left: 4%;
+  }
+  .bill_1000pR img {
+    width: 50%;
+  }
+  .bill_50000pR {
+    top: 73.4%;
+    left: 60%;
+  }
+  .bill_50000pR img {
+    width: 55%;
+  }
+  .bill_500000ppR {
+    top: 73.85%;
+    left: 8%;
+  }
+  .bill_500000ppR img {
+    width: 69%;
+  }
+  .bill_patacon {
+    top: 82.5%;
+    left: 19%;
+  }
+  .bill_patacon img {
+    width: 65%;
+  }
+  .bill_lecop {
+    top: 83.7%;
+    left: 65%;
+  }
+  .bill_lecop img {
+    width: 55%;
+  }
+  .bill_500pN {
+    top: 94.43%;
+    left: 55%;
+  }
+  .bill_500pN img {
+    width: 47.5%;
+  }
+  .bill_1000pN {
+    top: 95.3%;
+    left: 8%;
+  }
+  .bill_1000pN img {
+    width: 52.5%;
+  }
+  .remove00_1985 {
+    top: 71.7%;
+    left: -25%;
+  }
+  .remove00_1985 img {
+    width: 60%;
+  }
+  .remove00_1970 {
+    top: 58.875%;
+    left: 16%;
+  }
+  .remove00_1970 img {
+    width: 60%;
+  }
+  .remove00_1991 {
+    top: 77%;
+    left: -31%;
+  }
+  .remove00_1991 img {
+    width: 60%;
+  }
+  .remove0000_1983 {
+    top: 71.3%;
+    left: -42%;
+  }
+  .remove0000_1983 img {
+    width: 85%;
+  }
+  .bill_1000pN {
+    top: 95.3%;
+    left: 8%;
+  }
+  .bill_1000pN img {
+    width: 52.5%;
+  }
+  .pesoArgentino {
+    top: calc(70.25% - 1.375rem);
+    left: 20%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .progress_Horse {
+    width: inherit;
+  }
+  .depreciation_bills span:nth-of-type(1) {
+    font-size: 1rem;
+  }
+  .depreciation_bills span:nth-last-of-type(1) {
+    font-size: 1.5rem;
+  }
+  .depreciation_bills div span:nth-last-of-type(1):nth-of-type(1) {
+    font-size: 1rem;
+  }
+  .bill1 {
+    width: 4vw;
+    height: 4vw;
+    left: calc(9% - 4vw/2);
+  }
+  .coin {
+    width: 65%;
+    position: absolute;
+    top: -1.4%;
+    left: 535%;
+  }
+  .peso {
+    top: 1.65%;
+    left: calc(563% - 16.4070rem);
+  }
+  .peso span {
+    display: inline;
+  }
+  .stability {
+    top: 12.5%;
+    left: 32%;
+  }
+  .stability img {
+    width: 200%;
+  }
+  .bcra {
+    top: 32.1%;
+    left: 2%;
+    width: 100%;
+  }
+  .bcra img {
+    width: 250%;
+  }
+  .c20 {
+    top: 4.5%;
+    left: 30%;
+  }
+  .c20 img {
+    width: 100%;
+  }
+  .year {
+    font-size: 1.65rem;
+  }
+  .year img {
+    height: 1rem;
+  }
+  .yearM {
+    padding-right: 1rem;
+    font-size: 1rem;
+  }
+  .year0 {
+    top: calc(4.25% - 0.9583rem);
+  }
+  .year1 {
+    top: calc(5.37% - 0.9583rem);
+  }
+  .year2 {
+    top: calc(32.715% - 0.9583rem);
+  }
+  .year3 {
+    top: calc(33.55% - 0.9583rem);
+  }
+  .year4 {
+    top: calc(39.635% - 0.9583rem);
+  }
+  .year5 {
+    top: calc(52.48% - 0.96875rem);
+  }
+  .year6 {
+    top: calc(59.31% - 0.9583rem);
+  }
+  .year7 {
+    top: calc(61.18% - 0.9583rem);
+  }
+  .year8 {
+    top: calc(62.33% - 0.9583rem);
+  }
+  .year9 {
+    top: calc(64.72% - 0.9583rem);
+  }
+  .year10 span, .year11 span, .year12 span, .year13 span, .year14 span, .year15 span, .year16 span, .year17 span, .year18 span, .year19 span {
+    font-size: 1.4rem;
+  }
+  .year10 {
+    top: calc(66.95% - 0.79166rem);
+  }
+  .year11 {
+    top: calc(67.81% - 0.79166rem);
+  }
+  .year12 {
+    top: calc(68.54% - 0.79166rem);
+  }
+  .year13 {
+    top: calc(69.8% - 0.79166rem);
+  }
+  .year14 {
+    top: calc(70.38% - 0.79166rem);
+  }
+  .year15 {
+    top: calc(71.05% - 0.79166rem);
+  }
+  .year16 {
+    top: calc(73.26% - 0.79166rem);
+  }
+  .year17 {
+    top: calc(74.05% - 0.79166rem);
+  }
+  .year18 {
+    top: calc(74.82% - 0.79166rem);
+  }
+  .year19 {
+    top: calc(75.5% - 0.79166rem);
+  }
+  .year20 {
+    top: calc(83.315% - 0.96875rem);
+  }
+  .year21 {
+    top: calc(95.16% - 0.96875rem);
+  }
+  .year22 {
+    top: calc(96.05% - 0.96875rem);
+  }
+  .pesoArgentino {
+    top: calc(70.25% - 1.9166rem);
+  }
+}
+@media screen and (min-width: 900px) {
+  .year10 span, .year11 span, .year12 span, .year13 span, .year14 span, .year15 span, .year16 span, .year17 span, .year18 span, .year19 span {
+    font-size: 1.65rem;
+  }
+  .year10 {
+    top: calc(66.95% - 0.96875rem);
+  }
+  .year11 {
+    top: calc(67.81% - 0.96875rem);
+  }
+  .year12 {
+    top: calc(68.54% - 0.96875rem);
+  }
+  .year13 {
+    top: calc(69.89% - 0.96875rem);
+  }
+  .year14 {
+    top: calc(70.45% - 0.96875rem);
+  }
+  .year15 {
+    top: calc(71.05% - 0.96875rem);
+  }
+  .year16 {
+    top: calc(73.26% - 0.96875rem);
+  }
+  .year17 {
+    top: calc(74.05% - 0.96875rem);
+  }
+  .year18 {
+    top: calc(74.82% - 0.96875rem);
+  }
+  .year19 {
+    top: calc(75.5% - 0.96875rem);
+  }
+}
+@media screen and (min-width: 1369px) {
+  .progress_Img  {
+    left: calc((100vw - 1369px) /2)
+  }
+  .progress_Horse {
+    left: calc(((100vw - 1369px) /2) + 15px)
+  }
+}
