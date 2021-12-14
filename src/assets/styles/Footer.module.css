@@ -1,0 +1,12 @@
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-block: 2.5%;
+  min-width: 300px;
+}@media screen and (max-width: 300px) {
+  .footer {
+    overflow: scroll;
+  }
+}
