@@ -193,12 +193,21 @@ input[type=date].red {
 .expired i {
   background-color: red;
 }
+.terms {
+  transform: scale(0.7);
+  position: relative;
+  top: 0.5rem;
+}
 @media screen and (min-width: 768px) {
   .betPrize {
     display: inline;
   }
   .betsList div {
     text-align: left;
+  }
+  .terms {
+    transform: scale(1);
+    top: 0.2rem;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -207,7 +216,12 @@ input[type=date].red {
   }
   .targetDate input{
     width: 14.5rem;
-  }.terms {
+  }
+  .terms {
     transform: scale(1.5);
+    position: inherit;
+  }
+  .termsLabel {
+    padding-left: 0.5rem;
   }
 }
