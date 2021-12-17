@@ -5,7 +5,7 @@
 }
 .main {
   height: 100vh;
-  min-height: 800px;
+  min-height: 850px;
   background-size: cover;
   position: relative;
   overflow: hidden;
@@ -33,15 +33,9 @@
   bottom: 10%;
   left: 7.5%
 }
-.progress_Img {
+.progressBar {
   position: absolute;
   bottom: 12%;
-}
-.progress_Horse {
-  position: absolute;
-  bottom: calc(12% + 33.5px);
-  z-index: 99;
-  width: 150px;
 }
 .satoshi {
   border-radius: 1rem;
@@ -125,9 +119,6 @@
   width: 15vw;
 }
 @media screen and (min-width: 768px) {
-  .progress_Horse {
-    width: inherit;
-  }
   .main > span {
     font-size: 0.85rem;
   }
@@ -146,24 +137,21 @@
 }
 @media screen and (min-width: 1024px) {
   .main {
-    min-height: 65vw;
+    min-height: 1100px;
   }
+}
+@media screen and (min-width: 1200px) {
   .satoshiCoin {
     width: 450px;
     left: calc(50% - 225px);
-  }
-}
-@media screen and (min-width: 1369px) {
-  .progress_Img  {
-    left: calc((100vw - 1369px) /2)
-  }
-  .progress_Horse {
-    left: calc(((100vw - 1369px) /2) + 15px)
   }
 }
 @media screen and (min-width: 1600px) {
   .bounce {
     top: calc(82% - 105px);
     right: calc(8% - 93px);
+  }
+  .main {
+    min-height: 65vw;
   }
 }
