@@ -24,8 +24,8 @@ import Remove0 from './svg/Remove0';
 import Background1 from './svg/Backgroun1';
 import MainBill from './svg/MainBill';
 import Question from './svg/Question';
-import Styles from '../assets/styles/Depreciation.module.css'
 import Arrow from './svg/Arrow';
+import Styles from '../assets/styles/Depreciation.module.css'
 
 const Depreciation = () => {
   const handleClick1961 = () => {
@@ -116,7 +116,7 @@ const Depreciation = () => {
       <p>Basado en datos oficiales del Banco Central de la República Argentina.</p>
       <a target="_blank" rel="noreferrer" href="https://www.bcra.gob.ar/MediosPago/Emisiones_anteriores.asp">www.bcra.gob.ar/MediosPago/Emisiones_anteriores.asp</a>
     </div>
-    <div>
+    <div className={Styles.depreciation_container}>
       <section className={Styles.depreciation_bills}>
         <div className={Styles.bill1}>
           <span>$0,01</span>
@@ -155,7 +155,7 @@ const Depreciation = () => {
         <div className={Styles.box}></div>
         <div className={Styles.box}></div>
       </section>        
-      <section className={Styles.container}>
+      <section className={Styles.graph_container}>
         <div className={Styles.box}>
           <Zoom triggerOnce duration={1500} className={Styles.coin}>
             <Coin />
