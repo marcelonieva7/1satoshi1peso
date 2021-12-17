@@ -14,7 +14,7 @@ const Hero = () => {
   const style = width > 1369 ? {left: `calc(((100vw - 1369px) /2) + ${15+(1135*ratio)}px)`} : width < 768 ? {left: `calc((-45px + 6%) + ${90*ratio}% - ${100*ratio}px)`} : {left: `calc((-61px + 5.5% ) + ${92*ratio}% - ${120*ratio}px)`};
   return (
     <section className={Styles.container_hero}>
-      <div className={Styles.main} style={{backgroundImage: "url('images/svg.svg')"}} >
+      <div className={Styles.main} style={{backgroundImage: "url('images/background.svg')"}} >
         <img src="images/satoshiCoin.png" alt="Moneda 1 satoshi 1 peso" className={Styles.satoshiCoin}/>
         <div className={Styles.satoshi}>
           <h1>1 Satoshi =</h1>
@@ -27,7 +27,7 @@ const Hero = () => {
           <span>Un satoshi es la unidad mínima de medida que se puede utilizar en el sistema Bitcoin.</span>
           <span>Es la fracción más pequeña en la que puedes dividir un bitcoin.</span>
         </div>
-        <img src="images/caballo.svg" alt="Progreso de satoshi." className={Styles.progress_Horse} style={style} />
+        <img src="images/horse.svg" alt="Progreso de satoshi." className={Styles.progress_Horse} style={style} />
         <img src="images/hang.svg" alt="Manoapuntando hacia abajo." className={Styles.bounce} />
         <ProgressSvg className={Styles.progress_Img} ratio={ratio} />
       </div>
