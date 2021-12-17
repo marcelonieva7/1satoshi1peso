@@ -9,6 +9,7 @@ import {
   betsList,
   betPrize,terms,
   termsLabel,
+  termsSpan,
   betSize,
   form_error,
   green,
@@ -137,7 +138,7 @@ const BetForm = () => {
             ))}
           </div>
           <input ref={termsRef} required type="checkbox" name="terms" id="terms" onChange={({target})=> handleTermsChange(target)} className={terms} />
-          <label className={termsLabel} htmlFor="terms">He leido y acepto los <span onClick={handleTermsClick}>términos y condiciones</span></label>
+          <label className={termsLabel} htmlFor="terms">He leido y acepto los </label><span className={termsSpan} onClick={handleTermsClick}>términos y condiciones</span>
           {termsError && isSubmitted && <div className={form_error}>{termsError}</div>}
           <button onClick={checkErrors} type="submit">PARICIPAR</button>
         </form>

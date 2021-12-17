@@ -104,8 +104,9 @@ input[type="radio" i] {
 .termsLabel {
   font-family: Arial, Helvetica, sans-serif;
 }
-.termsLabel span {
+.termsSpan {
   text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .betSize > span, .targetDate > label {
   font-size: 1.3rem;
