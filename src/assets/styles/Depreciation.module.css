@@ -426,7 +426,7 @@
   right: 0;
 }
 .year9 {
-  top: calc(64% - 0.6875rem);
+  top: calc(63.65% - 0.6875rem);
   position: absolute;
   right: 0;
 }
@@ -599,7 +599,7 @@
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(63.5% - 9.05px);
+  top: calc(63.7% - 9px);
   left: 9%;
 }
 .bill_10000pA svg {
@@ -931,49 +931,52 @@
    height: auto;
   }  
   .year0 {
-    top: calc(4.25% - 0.9583rem);
+    top: calc(4.25% - 0.6875rem);
+  }
+  .year1 {
+    top: calc(5.4% - 0.6875rem);
   }
   .year2 {
-    top: calc(32.715% - 0.9583rem);
+    top: calc(32.87% - 0.6875rem);
   }
   .year3 {
-    top: calc(33.55% - 0.9583rem);
+    top: calc(33.7% - 0.6875rem);
   }
   .year4 {
-    top: calc(39.635% - 0.9583rem);
+    top: calc(39.83% - 0.6875rem);
   }
   .year5 {
-    top: calc(52.44% - 0.6875rem);
+    top: calc(52.73% - 0.6875rem);
   }
   .year6 {
-    top: calc(59.31% - 0.9583rem);
+    top: calc(59.67% - 0.6875rem);
   }
   .year7 {
-    top: calc(61.26% - 0.9583rem);
+    top: calc(60.71% - 0.6875rem);
   }
   .year8 {
-    top: calc(62.43% - 0.9583rem);
+    top: calc(61.85% - 0.6875rem);
   }
   .year9 {
-    top: calc(64.82% - 0.9583rem);
+    top: calc(64.275% - 0.6875rem);
   }
   .year10 {
-    top: calc(66.98% - 0.9583rem);
+    top: calc(66.517% - 0.6875rem);
   }
   .year11 {
-    top: calc(67.86% - 0.9583rem);
+    top: calc(67.4% - 0.6875rem);
   }
   .year12 {
-    top: calc(68.64% - 0.9583rem);
+    top: calc(68.2% - 0.6875rem);
   }
   .year13 {
-    top: calc(69.8% - 0.6875rem);
+    top: calc(69.6% - 0.6875rem);
   }
   .year14 {
-    top: calc(70.38% - 0.6875rem);
+    top: calc(70.25% - 0.6875rem);
   }
   .year15 {
-    top: calc(71.05% - 0.6875rem);
+    top: calc(70.97% - 0.6875rem);
   }
   .year16 {
     top: calc(73.23% - 0.6875rem);
@@ -991,10 +994,10 @@
     top: calc(83.315% - 0.6875rem);
   }
   .year21 {
-    top: calc(95.16% - 0.6875rem);
+    top: calc(95.1% - 0.6875rem);
   }
   .year22 {
-    top: calc(96.04% - 0.6875rem);
+    top: calc(95.98% - 0.6875rem);
   }
   .c20 {
     top: 4.35%;
@@ -1053,7 +1056,7 @@
     width: 50%;
   }
   .bill_10000pA {
-    top: 63.95%;
+    top: 63.5%;
     left: 9%;
   }
   .bill_10000pA svg {
@@ -1309,7 +1312,7 @@
     top: calc(61.92% - 0.96875rem);
   }
   .year9 {
-    top: calc(64.5% - 0.96875rem);
+    top: calc(64.4% - 0.96875rem);
   }
   .year10 span, .year11 span, .year12 span, .year13 span, .year14 span, .year15 span, .year16 span, .year17 span, .year18 span, .year19 span {
     font-size: 1.4rem;
