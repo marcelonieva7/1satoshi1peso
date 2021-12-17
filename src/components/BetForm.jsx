@@ -26,21 +26,21 @@ const BetForm = () => {
   const POOL = 1259
   const BETS = [
     {
-      date: '09-24-2021',
+      date: '2021-09-24',
       size: 10,
-      targetDate: '06-30-2025',
+      targetDate: '2025-06-30',
       prize: 500
     },
     {
-      date: '09-24-2021',
+      date: '2021-09-24',
       size: 10,
-      targetDate: '11-30-2021',
+      targetDate: '2021-11-30',
       prize: 2000
     },
     {
-      date: '09-24-2021',
+      date: '2021-09-24',
       size: 10,
-      targetDate: '06-30-2025',
+      targetDate: '2025-06-30',
       prize: 1400
     }
   ]
