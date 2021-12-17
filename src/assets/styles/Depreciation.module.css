@@ -63,7 +63,7 @@
   display: flex;
   position: relative;
   border-top: dashed 3px #000000;
-  height: 968.5px;
+  height: 993px;
 }
 .depreciation_info {
   padding: 7rem 9% 5.5rem;
@@ -133,26 +133,45 @@
   position: relative;
   top: 48.8px
 }
+.period1 svg {
+  width: calc(305% + 6px);
+  height: 534px;
+}
 .period2 {
   z-index: 99;
   position: relative;
   top: calc(4% - 2px)
 }
+.period2 svg {
+  width: calc(600% + 12px);
+  height:111.8px;
+}
 .period3 {
   z-index: 99;
   position: relative;
-  top: calc(2.65% - 4px)
+  top: 3.28%
+}
+.period3 svg {
+  width: calc(200% + 4px);
+  height: 19px;
 }
 .period4 {
   z-index: 99;
   position: relative;
-  top: calc(1.55% - 5px)
+  top: 2.43%
+}
+.period4 svg {
+  width: calc(506% + 10px);
+  height: 59px;
 }
 .period5 {
   z-index: 99;
   position: relative;
-  top: -0.725%;
-  height: calc(100%)
+  top: 1.8%;
+}
+.period5 svg {
+  width: calc(275% + 4px);
+  height: 240.5px;
 }
 .bill1 {
   width: 5.5%;
@@ -242,7 +261,7 @@
   width: 100%;
   z-index: 99;
 }
-.stability img {
+.stability svg {
   width: 125px;
 }
 .bcra {
@@ -252,16 +271,16 @@
   width: 100%;
   z-index: 99;
 }
-.bcra img {
+.bcra svg {
   width: 200px;
 }
 .c20 {
   position: absolute;
   width: 100%;
-  top: calc(5.25% - 6.676425px);
+  top: calc(5.25% - 9.05px);
   left: calc(60% - 18px);
 }
-.c20 img {
+.c20 svg {
   width: calc(57px);
 }
 .box {
@@ -285,7 +304,7 @@
   font-weight: bold;
   color: #ffffff;
 }
-.year img {
+.year svg {
   height: 0.5rem;
 }
 .year0 {
@@ -304,161 +323,173 @@
 }
 .yearM1 {
   position: absolute;
-  top: calc(6.15% - 0.5rem);
+  top: calc(6.15% - 0.5625rem);
   right: 0;
 }
 .yearM2 {
   position: absolute;
-  top: calc(13.65% - 0.5rem);
+  top: calc(13.758% - 0.5625rem);
   right: 0;
 }
 .yearM3 {
   position: absolute;
-  top: calc(21.15% - 0.5rem);
+  top: calc(21.367% - 0.5625rem);
   right: 0;
 }
 .yearM4 {
   position: absolute;
-  top: calc(28.65% - 0.5rem);
+  top: calc(28.9753% - 0.5625rem);
   right: 0;
 }
 .yearM5 {
   position: absolute;
-  top: calc(36.15% - 0.5rem);
+  top: calc(36.5836% - 0.5625rem);
   right: 0;
 }
 .yearM6 {
   position: absolute;
-  top: calc(43.65% - 0.5rem);
+  top: calc(44.1919% - 0.5625rem);
   right: 0;
 }
 .yearM7 {
   position: absolute;
-  top: calc(51.15% - 0.5rem);
+  top: calc(51.4% - 0.5625rem);
   right: 0;
 }
 .yearM8 {
   position: absolute;
-  top: calc(82.4% - 0.5625rem);
+  top: calc(82.5% - 0.5625rem);
   right: 0;
 }
 .yearM9 {
   position: absolute;
-  top: calc(90.15% - 0.5rem);
+  top: calc(90.1083% - 0.5625rem);
   right: 0;
 }
 .yearM10 {
   position: absolute;
-  top: calc(97.65% - 0.5rem);
+  top: calc(97.7166% - 0.5625rem);
   right: 0;
 }
 .year1 {
   position: absolute;
-  top: calc(5.37% - 0.6875rem);
+  top: calc(5.225% - 0.6875rem);
   right: 0;
 }
 .year2 {
-  top: calc(32.715% - 0.6875rem);
+  top: calc(32.38% - 0.6875rem);
   position: absolute;
   right: 0;
 }
 .year3 {
-  top: calc(33.55% - 0.6875rem);
+  top: calc(33.2% - 0.6875rem);
   position: absolute;
   right: 0;
 }
 .year4 {
-  top: calc(39.75% - 0.6875rem);
+  top: calc(39.3% - 0.6875rem);
   position: absolute;
   right: 0;
 }
 .year5 {
-  top: calc(52.6% - 0.6875rem);
+  top: calc(52% - 0.6875rem);
   position: absolute;
   right: 0;
 }
 .year6 {
-  top: calc(59.5% - 0.6875rem);
+  top: calc(58.85% - 0.6875rem);
   position: absolute;
   right: 0;
 }
 .year7{
-  top: calc(61.15% - 0.6875rem);
+  top: calc(59.88% - 0.6875rem);
   position: absolute;
   right: 0;
 }
+.year6 svg, .year7 svg, .year8 svg , .year9 svg , .year10 svg , .year11 svg , .year12 svg {
+  fill: rgb(45, 60, 92);
+}
+.year13 svg , .year14 svg {
+  fill: rgb(85, 76, 128);
+}
+.year15 svg , .year16 svg , .year17 svg , .year18 svg {
+  fill: rgb(193, 70, 50);
+}
+.year19 svg , .year20 svg , .year21 svg , .year22 svg {
+  fill: rgb(226, 110, 43);
+}
 .year8 {
-  top: calc(62.3% - 0.6875rem);
+  top: calc(61.05% - 0.6875rem);
   position: absolute;
   right: 0;
 }
 .year9 {
-  top: calc(64.65% - 0.6875rem);
+  top: calc(64% - 0.6875rem);
   position: absolute;
   right: 0;
 }
 .year10 {
-  top: calc(66.8% - 0.6875rem);
+  top: calc(66% - 0.6875rem);
   position: absolute;
   right: 0;
 }
 .year11 {
-  top: calc(67.75% - 0.6875rem);
+  top: calc(66.89% - 0.6875rem);
   position: absolute;
   right: 0;
 }
 .year12 {
-  top: calc(67.99%);
+  top: calc(67.7% - 0.6875rem);
   position: absolute;
   right: 0;
 }
 .year13 {
-  top: calc(69.17%);
+  top: calc(69.17% - 0.6875rem);
   position: absolute;
   right: 0;
 }
 .year14 {
-  top: calc(69.92%);
+  top: calc(69.92% - 0.6875rem);
   position: absolute;
   right: 0;
 }
 .year15 {
-  top: calc(70.67%);
+  top: calc(70.67% - 0.6875rem);
   position: absolute;
   right: 0;
 }
 .year16 {
-  top: calc(72.65%);
+  top: calc(73.4% - 0.6875rem);
   position: absolute;
   right: 0;
 }
 .year17 {
-  top: calc(73.5%);
+  top: calc(74.4% - 0.6875rem);
   position: absolute;
   right: 0;
 }
 .year18 {
-  top: calc(74.2%);
+  top: calc(75.25% - 0.6875rem);
   position: absolute;
   right: 0;
 }
 .year19 {
-  top: calc(75%);
+  top: calc(76.21% - 0.6875rem);
   position: absolute;
   right: 0;
 }
 .year20 {
-  top: calc(82.7%);
+  top: calc(83.7% - 0.6875rem);
   position: absolute;
   right: 0;
 }
 .year21 {
-  top: calc(94.6%);
+  top: calc(95.25% - 0.6875rem);
   position: absolute;
   right: 0;
 }
 .year22 {
-  top: calc(95.4%);
+  top: calc(96.12% - 0.6875rem);
   position: absolute;
   right: 0;
 }
@@ -466,121 +497,157 @@
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(32.65% - 7.69px);
+  top: calc(32.4% - 9.455px);
   left: 30%;
 }
-.bill_5p img {
-  width: 23px
+.bill_5p svg {
+  width: 22px
 }
 .bill_100p {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(33.65% - 8.125px);
+  top: calc(33.3% - 9.595px);
   left: 7%;
 }
-.bill_100p img {
-  width: 29px
+.bill_100p svg {
+  width: 39px
+}
+.bill_100p svg text {
+  fill: rgb(237, 113, 120);
+}
+.bill_100p svg path {
+  stroke: rgb(237, 113, 120);
 }
 .bill_1000p {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(39.65% - 7.93px);
+  top: calc(39.27% - 8.14px);
   left: 12%;
 }
-.bill_1000p img {
+.bill_1000p svg {
   width: 36px
+}
+.bill_1000p svg text {
+  fill: rgb(237, 113, 120);
+}
+.bill_1000p svg path {
+  stroke: rgb(237, 113, 120);
 }
 .bill_10000pp {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(52.2% - 9.805px);
+  top: calc(51.85% - 10.10px);
   left: 12%;
 }
-.bill_10000pp img {
+.bill_10000pp svg {
   width: 47px
+}
+.bill_10000pp svg text, .bill_10000pp svg circle:first-of-type {
+  fill: rgb(237, 113, 120);
+}
+.bill_10000pp svg path:first-of-type {
+  stroke: rgb(237, 113, 120);
 }
 .bill_100pp {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(59.7% - 6.78px);
+  top: calc(58.82% - 10.78px);
   left: -4%;
 }
-.bill_100pp img {
-  width: 32px
+.bill_100pp svg {
+  width: 50px
+}
+.bill_100pp svg text, .bill_100pp svg circle:first-of-type {
+  fill: rgb(45, 60, 92);
+}
+.bill_100pp svg path:first-of-type {
+  stroke: rgb(45, 60, 92);
 }
 .bill_500p {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(61% - 5.945px);
+  top: calc(60% - 9.15px);
   left: 55%;
 }
-.bill_500p img {
-  width: 34px
+.bill_500p svg {
+  width: 37px
 }
 .bill_1000pA {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(62.23% - 6.07px);
+  top: calc(61.25% - 7.54px);
   left: 12%;
 }
-.bill_1000pA img {
+.bill_1000pA svg {
   width: 33px
+}
+.bill_1000pA svg text {
+  fill: rgb(45, 60, 92);
+}
+.bill_1000pA svg path:first-of-type {
+  stroke: rgb(45, 60, 92);
 }
 .bill_10000pA {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(64.6% - 6.39px);
+  top: calc(63.5% - 9.05px);
   left: 9%;
 }
-.bill_10000pA img {
+.bill_10000pA svg {
   width: 43px
+}
+.bill_10000pA svg text {
+  fill: rgb(45, 60, 92);
+}
+.bill_10000pA svg path:first-of-type {
+  stroke: rgb(45, 60, 92);
 }
 .bill_100000pA {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(66.7% - 6.86px);
+  top: calc(66% - 9.3px);
   left: 5.5%;
 }
-.bill_100000pA img {
+.bill_100000pA svg {
   width: 50px
 }
 .bill_500000pA {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(67.55% - 7.095px);
+  top: calc(67.1% - 8.53px);
   left: 7%;
 }
-.bill_500000pA img {
+.bill_500000pA svg {
   width: 45px
 }
 .bill_1000000pA {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(68.3% - 8.135px);
+  top: calc(67.9% - 9.72px);
   left: 49%;
 }
-.bill_1000000pA img {
+.bill_1000000pA svg {
   width: 55px
 }
 .bill_100ppV {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(69.5% - 6.735px);
+  top: calc(69.23% - 9.8px);
   left: 67%;
 }
-.bill_100ppV img {
-  width: 33px
+.bill_100ppV svg {
+  width: 45px
 }
 .bill_5000pV {
   z-index: 999;
@@ -588,145 +655,187 @@
   width: 100%;
   display: none;
 }
+.bill_5000pV svg text {
+  fill: rgb(85, 76, 128);
+}
+.bill_5000pV svg path:first-of-type {
+  stroke: rgb(85, 76, 128);
+}
 .bill_10000ppV {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(70.5% - 6.865px);
+  top: calc(70.3% - 9.415px);
   left: 18%;
 }
-.bill_10000ppV img {
-  width: 40px
+.bill_10000ppV svg {
+  width: 43px
 }
 .bill_100ppN {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(75.45% - 10.735px);
+  top: calc(75.99% - 10px);
   left: 3%;
 }
-.bill_100ppN img {
-  width: 30px
+.bill_100ppN svg {
+  width: 46px
+}
+.bill_100ppN svg text, .bill_100ppN svg circle:first-of-type {
+  fill: rgb(226, 110, 43);
+}
+.bill_100ppN svg path:first-of-type {
+  stroke: rgb(226, 110, 43);
 }
 .bill_100ppR {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(70.55% - 7.97px);
+  top: calc(70.55% - 10px);
   left: calc(8px - 10%);
 }
-.bill_100ppR img {
-  width: 30px
+.bill_100ppR svg {
+  width: 46px
+}
+.bill_100ppR svg text, .bill_100ppR svg circle:first-of-type {
+  fill: rgb(193, 70, 50);
+}
+.bill_100ppR svg path:first-of-type {
+  stroke: rgb(193, 70, 50);
 }
 .bill_1000pR {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(73.2% - 5.955px);
+  top: calc(73.5% - 7.94px);
   left: 4%;
 }
-.bill_1000pR img {
-  width: 31.5px
+.bill_1000pR svg {
+  width: 35px
 }
 .bill_50000pR {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(73.9% - 6.615px);
+  top: calc(74.5% - 8.99px);
   left: 60%;
 }
-.bill_50000pR img {
-  width: 38px
+.bill_50000pR svg {
+  width: 40px
 }
 .bill_500000ppR {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(74.5% - 8.485px);
+  top: calc(75.2% - 9.42px);
   left: 8%;
 }
-.bill_500000ppR img {
+.bill_500000ppR svg {
   width: 45px
 }
 .bill_patacon {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(83.35% - 8.595px);
+  top: calc(83.7% - 8.68px);
   left: 19%;
 }
-.bill_patacon img {
+.bill_patacon svg {
   width: 41px;
+}
+.bill_patacon svg text, .bill_patacon svg circle:first-of-type {
+  fill: rgb(226, 110, 43);
+}
+.bill_patacon svg path:first-of-type {
+  stroke: rgb(226, 110, 43);
 }
 .bill_lecop {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(84.8% - 8.875px);
+  top: calc(85% - 9.375px);
   left: 65%;
 }
-.bill_lecop img {
-  width: 35px;
+.bill_lecop svg {
+  width: 38px;
+}
+.bill_lecop svg text {
+  fill: rgb(226, 110, 43);
+}
+.bill_lecop svg path:first-of-type {
+  stroke: rgb(226, 110, 43);
 }
 .bill_500pN {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(95.3% - 8.43px);
+  top: calc(95.3% - 8.71px);
   left: 54%;
 }
-.bill_500pN img {
-  width: 28px
+.bill_500pN svg {
+  width: 35px
+}
+.bill_500pN svg text {
+  fill: rgb(226, 110, 43);
+}
+.bill_500pN svg path:first-of-type {
+  stroke: rgb(226, 110, 43);
 }
 .bill_1000pN {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(96.1% - 7.69px);
+  top: calc(96.15% - 7.15px);
   left: 8%;
 }
-.bill_1000pN img {
+.bill_1000pN svg {
   width: 31px
+}
+.bill_1000pN svg text {
+  fill: rgb(226, 110, 43);
+}
+.bill_1000pN svg path:first-of-type {
+  stroke: rgb(226, 110, 43);
 }
 .remove00_1985 {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(72.27% - 6.865px);
-  left: calc(-10% - 19.015px);
+  top: calc(71% - 20px);
+  left: calc(-30% - 19.015px);
 }
-.remove00_1985 img {
-  width: 52px
+.remove00_1985 svg {
+  width: 70px
 }
 .remove00_1970 {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(59.25% - 6.07px);
-  left: 18%;
+  top: calc(59% - 13.93px);
+  left: -20%;
 }
-.remove00_1970 img {
-  width: 55px
+.remove00_1970 svg {
+  width: 85px
 }
 .remove00_1991 {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(77.8% - 7.2px);
-  left: calc(-10% - 22.135px);
+  top: calc(77.9% - 21.35px);
+  left: calc(-29% - 20.25px);
 }
-.remove00_1991 img {
-  width: 55px
+.remove00_1991 svg {
+  width: 75px
 }
 .remove0000_1983 {
   z-index: 999;
   position: absolute;
   width: 100%;
-  top: calc(71.8% - 6.205px);
+  top: calc(70.8% - 21.35px);
   left: calc(-12% - 31px);
 }
-.remove0000_1983 img {
-  width: 70px
+.remove0000_1983  svg {
+  width: 75px
 }
 .pesoMN {
   position: absolute;
@@ -742,9 +851,12 @@
 }
 .pesoArgentino {
   position: absolute;
-  top: calc(70.25% - 1.375rem);
+  top: calc(69.94% - 1rem);
   left: 4%;
   z-index: 999;
+}
+.pesoArgentino .year {
+  font-size: 0.9rem;
 }
 .austral {
   position: absolute;
@@ -783,22 +895,39 @@
   .container {
     height: auto;
   }
+  .container .box:nth-of-type(2) {
+    padding-bottom: 5.25%;
+  }
   .period1 {
-    top: 5%
+    top: 5.2%;
   }
   .period2 {
-    top: 4%
+    top: 4.2%;
   }
   .period3 {
-    top: 2.65%
+    top: 3.88%;
   }
   .period4 {
-    top: 1.55%
+    top: 3.25%;
   }
   .period5 {
-    top: -0.166%;
-    height: calc(100.5% - 6px)
+    top: 2.8%;
   }
+  .period1 svg {
+   height: auto;
+  }
+  .period2 svg {
+   height: auto;
+  }
+  .period3 svg {
+   height: auto;
+  }
+  .period4 svg {
+   height: auto;
+  }
+  .period5 svg {
+   height: auto;
+  }  
   .year0 {
     top: calc(4.25% - 0.9583rem);
   }
@@ -865,195 +994,202 @@
   .year22 {
     top: calc(96.04% - 0.6875rem);
   }
-  .bill_5p {
-    top: 31.8%;
+  .c20 {
+    top: 4.35%;
     left: 30%;
   }
-  .bill_5p img {
+  .c20 svg {
+    width: 100%;
+  }
+  .bill_5p {
+    top: 32.1%;
+    left: 30%;
+  }
+  .bill_5p svg {
     width: 33%;
   }
   .bill_100p {
-    top: 32.7%;
+    top: 32.95%;
     left: 4.5%;
   }
-  .bill_100p img {
-    width: 45%;
+  .bill_100p svg {
+    width: 65%;
   }
   .bill_1000p {
-    top: 38.75%;
+    top: 39.1%;
     left: 12%;
   }
-  .bill_1000p img {
+  .bill_1000p svg {
     width: 60%;
   }
   .bill_10000pp {
-    top: 51.2%;
+    top: 51.55%;
     left: 12%;
   }
-  .bill_10000pp img {
+  .bill_10000pp svg {
     width: 78%;
   }
   .bill_100pp {
-    top: 59.1%;
+    top: 58.73%;
     left: -4%;
   }
-  .bill_100pp img {
-    width: 50%;
+  .bill_100pp svg {
+    width: 70%;
   }
   .bill_500p {
-    top: 60.45%;
+    top: 60.1%;
     left: 47%;
   }
-  .bill_500p img {
+  .bill_500p svg {
     width: 50%;
   }
   .bill_1000pA {
-    top: 61.6%;
+    top: 61.27%;
     left: 5%;
   }
-  .bill_1000pA img {
+  .bill_1000pA svg {
     width: 50%;
   }
   .bill_10000pA {
     top: 63.95%;
     left: 9%;
   }
-  .bill_10000pA img {
+  .bill_10000pA svg {
     width: 65%;
   }
   .bill_100000pA {
-    top: 66.2%;
+    top: 65.8%;
     left: 9%;
   }
-  .bill_100000pA img {
+  .bill_100000pA svg {
     width: 72%;
   }
   .bill_500000pA {
-    top: 67%;
+    top: 66.75%;
     left: 8%;
   }
-  .bill_500000pA img {
+  .bill_500000pA svg {
     width: 69%;
   }
   .bill_1000000pA {
-    top: 67.7%;
+    top: 67.37%;
     left: 50%;
   }
-  .bill_1000000pA img {
+  .bill_1000000pA svg {
     width: 78%;
   }
   .bill_100ppV {
-    top: 68.85%;
+    top: 68.7%;
     left: 67%;
   }
-  .bill_100ppV img {
-    width: 50%;
+  .bill_100ppV svg {
+    width: 70%;
   }
   .bill_5000pV {
-    top: 69.85%;
-    left: -35%;
+    top: 69.75%;
+    left: -42%;
     display: block;
   }
-  .bill_5000pV img {
+  .bill_5000pV svg {
     width: 35%;
   }
   .bill_10000ppV {
-    top: 70.15%;
+    top: 69.8%;
     left: 18%;
   }
-  .bill_10000ppV img {
-    width: 50%;
+  .bill_10000ppV svg {
+    width: 60%;
   }
   .bill_100ppN {
-    top: 74.13%;
+    top: 74.4%;
     left: 3%;
   }
-  .bill_100ppN img {
-    width: 55%;
+  .bill_100ppN svg {
+    width: 77%;
   }
   .bill_100ppR {
-    top: 70%;
+    top: 69.85%;
     left: -5%;
   }
-  .bill_100ppR img {
-    width: 45%;
+  .bill_100ppR svg {
+    width: 68%;
   }
   .bill_1000pR {
-    top: 72.55%;
+    top: 72.5%;
     left: 4%;
   }
-  .bill_1000pR img {
+  .bill_1000pR svg {
     width: 50%;
   }
   .bill_50000pR {
-    top: 73.4%;
+    top: 73.3%;
     left: 60%;
   }
-  .bill_50000pR img {
+  .bill_50000pR svg {
     width: 55%;
   }
   .bill_500000ppR {
-    top: 73.85%;
+    top: 73.7%;
     left: 8%;
   }
-  .bill_500000ppR img {
+  .bill_500000ppR svg {
     width: 69%;
   }
   .bill_patacon {
-    top: 82.5%;
+    top: 82.45%;
     left: 19%;
   }
-  .bill_patacon img {
-    width: 65%;
+  .bill_patacon svg {
+    width: 68%;
   }
   .bill_lecop {
-    top: 83.7%;
+    top: 83.75%;
     left: 65%;
   }
-  .bill_lecop img {
-    width: 55%;
+  .bill_lecop svg {
+    width: 65%;
   }
   .bill_500pN {
-    top: 94.43%;
+    top: 94.42%;
     left: 55%;
   }
-  .bill_500pN img {
-    width: 47.5%;
+  .bill_500pN svg {
+    width: 52%;
   }
   .bill_1000pN {
     top: 95.3%;
     left: 8%;
   }
-  .bill_1000pN img {
+  .bill_1000pN svg {
     width: 52.5%;
   }
   .remove00_1985 {
-    top: 71.7%;
-    left: -25%;
+    top: 69.95%;
+    left: -34%;
   }
-  .remove00_1985 img {
-    width: 60%;
+  .remove00_1985 svg {
+    width: 75%;
   }
   .remove00_1970 {
-    top: 58.875%;
-    left: 16%;
+    top: 58.85%;
+    left: -15%;
   }
-  .remove00_1970 img {
-    width: 60%;
+  .remove00_1970 svg {
+    width: 97%;
   }
   .remove00_1991 {
-    top: 77%;
-    left: -31%;
+    top: 75.05%;
+    left: -38%;
   }
-  .remove00_1991 img {
-    width: 60%;
+  .remove00_1991 svg {
+    width: 75%;
   }
   .remove0000_1983 {
-    top: 71.3%;
-    left: -42%;
+    top: 68.95%;
+    left: -37.5%;
   }
-  .remove0000_1983 img {
-    width: 85%;
+  .remove0000_1983  svg {
+    width: 75%;
   }
   .pesoMN {
     left: 20%;
@@ -1062,7 +1198,11 @@
     left: 20%;
   }
   .pesoArgentino {
+    top: calc(70.25% - 1.125rem);
     left: 20%;
+  }
+  .pesoArgentino .year {
+    font-size: 1rem;
   }
   .austral {
     left: 20%;
@@ -1079,7 +1219,7 @@
     width: 100%;
   }
   .bg_question {
-    width: calc(51.7%);
+    width: calc(51.9%);
     height: auto;
   }
 }
@@ -1118,7 +1258,7 @@
     top: 12.5%;
     left: 32%;
   }
-  .stability img {
+  .stability svg {
     width: 200%;
   }
   .bcra {
@@ -1126,20 +1266,13 @@
     left: 2%;
     width: 100%;
   }
-  .bcra img {
+  .bcra svg {
     width: 250%;
-  }
-  .c20 {
-    top: 4.5%;
-    left: 30%;
-  }
-  .c20 img {
-    width: 100%;
   }
   .year {
     font-size: 1.65rem;
   }
-  .year img {
+  .year svg {
     height: 1rem;
   }
   .yearM {
@@ -1147,84 +1280,37 @@
     font-size: 1rem;
   }
   .year0 {
-    top: calc(4.25% - 0.9583rem);
+    top: calc(4.25% - 0.96875rem);
   }
   .year1 {
-    top: calc(5.37% - 0.9583rem);
+    top: calc(5.37% - 0.96875rem);
   }
   .year2 {
-    top: calc(32.715% - 0.9583rem);
+    top: calc(32.93% - 0.96875rem);
   }
   .year3 {
-    top: calc(33.55% - 0.9583rem);
+    top: calc(33.76% - 0.96875rem);
   }
   .year4 {
-    top: calc(39.635% - 0.9583rem);
+    top: calc(39.905% - 0.96875rem);
   }
   .year5 {
-    top: calc(52.48% - 0.96875rem);
+    top: calc(52.86% - 0.96875rem);
   }
   .year6 {
-    top: calc(59.31% - 0.9583rem);
+    top: calc(59.765% - 0.96875rem);
   }
   .year7 {
-    top: calc(61.18% - 0.9583rem);
+    top: calc(60.725% - 0.96875rem);
   }
   .year8 {
-    top: calc(62.33% - 0.9583rem);
+    top: calc(61.92% - 0.96875rem);
   }
   .year9 {
-    top: calc(64.72% - 0.9583rem);
+    top: calc(64.5% - 0.96875rem);
   }
   .year10 span, .year11 span, .year12 span, .year13 span, .year14 span, .year15 span, .year16 span, .year17 span, .year18 span, .year19 span {
     font-size: 1.4rem;
-  }
-  .year10 {
-    top: calc(66.95% - 0.79166rem);
-  }
-  .year11 {
-    top: calc(67.81% - 0.79166rem);
-  }
-  .year12 {
-    top: calc(68.54% - 0.79166rem);
-  }
-  .year13 {
-    top: calc(69.8% - 0.79166rem);
-  }
-  .year14 {
-    top: calc(70.38% - 0.79166rem);
-  }
-  .year15 {
-    top: calc(71.05% - 0.79166rem);
-  }
-  .year16 {
-    top: calc(73.26% - 0.79166rem);
-  }
-  .year17 {
-    top: calc(74.05% - 0.79166rem);
-  }
-  .year18 {
-    top: calc(74.82% - 0.79166rem);
-  }
-  .year19 {
-    top: calc(75.5% - 0.79166rem);
-  }
-  .year20 {
-    top: calc(83.315% - 0.96875rem);
-  }
-  .year21 {
-    top: calc(95.16% - 0.96875rem);
-  }
-  .year22 {
-    top: calc(96.05% - 0.96875rem);
-  }
-  .pesoArgentino {
-    top: calc(70.25% - 1.9166rem);
-  }
-}
-@media screen and (min-width: 900px) {
-  .year10 span, .year11 span, .year12 span, .year13 span, .year14 span, .year15 span, .year16 span, .year17 span, .year18 span, .year19 span {
-    font-size: 1.65rem;
   }
   .year10 {
     top: calc(66.95% - 0.96875rem);
@@ -1236,10 +1322,10 @@
     top: calc(68.54% - 0.96875rem);
   }
   .year13 {
-    top: calc(69.89% - 0.96875rem);
+    top: calc(69.8% - 0.96875rem);
   }
   .year14 {
-    top: calc(70.45% - 0.96875rem);
+    top: calc(70.38% - 0.96875rem);
   }
   .year15 {
     top: calc(71.05% - 0.96875rem);
@@ -1255,6 +1341,56 @@
   }
   .year19 {
     top: calc(75.5% - 0.96875rem);
+  }
+  .year20 {
+    top: calc(83.27% - 0.96875rem);
+  }
+  .year21 {
+    top: calc(95.13% - 0.96875rem);
+  }
+  .year22 {
+    top: calc(96% - 0.96875rem);
+  }
+  .pesoArgentino {
+    top: calc(70.25% - 1.5rem);
+  }
+  .pesoArgentino .year {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .year10 span, .year11 span, .year12 span, .year13 span, .year14 span, .year15 span, .year16 span, .year17 span, .year18 span, .year19 span {
+    font-size: 1.65rem;
+  }
+  .year10 {
+    top: calc(66.6% - 0.96875rem);
+  }
+  .year11 {
+    top: calc(67.5% - 0.96875rem);
+  }
+  .year12 {
+    top: calc(68.3% - 0.96875rem);
+  }
+  .year13 {
+    top: calc(69.68% - 0.96875rem);
+  }
+  .year14 {
+    top: calc(70.23% - 0.96875rem);
+  }
+  .year15 {
+    top: calc(70.84% - 0.96875rem);
+  }
+  .year16 {
+    top: calc(73.17% - 0.96875rem);
+  }
+  .year17 {
+    top: calc(74% - 0.96875rem);
+  }
+  .year18 {
+    top: calc(74.72% - 0.96875rem);
+  }
+  .year19 {
+    top: calc(75.52% - 0.96875rem);
   }
 }
 @media screen and (min-width: 1369px) {
