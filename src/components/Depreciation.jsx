@@ -145,16 +145,7 @@ const Depreciation = () => {
           <span>Billete de</span>
           <span>$1.000.000</span>
         </div>
-      </section>
-      <section className={Styles.stickySpace}>
-        <div className={Styles.box}></div>
-        <div className={Styles.box}></div>
-        <div className={Styles.box}></div>
-        <div className={Styles.box}></div>
-        <div className={Styles.box}></div>
-        <div className={Styles.box}></div>
-        <div className={Styles.box}></div>
-      </section>        
+      </section>       
       <section className={Styles.graph_container}>
         <div className={Styles.box}>
           <Zoom triggerOnce duration={1500} className={Styles.coin}>

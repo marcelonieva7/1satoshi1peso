@@ -1,69 +1,9 @@
-.main {
-  height: 100vh;
-  min-height: 65vw;
-  background-size: cover;
-  position: relative;
-  overflow: hidden;
-}
-.main p {
-  text-align: center;
-  margin-block: 0.25rem;
-  font-size: 0.75rem;
-}
-.progress {
-  position: absolute;
-  bottom: 10%;
-  left: 7.5%
-}
-.progress_Img {
-  position: absolute;
-  bottom: 12%;
-}
-.progress_Horse {
-  position: absolute;
-  bottom: calc(12% + 33.5px);
-  z-index: 99;
-  width: 150px;
-}
-.satoshi {
-  border-radius: 10px;
-  border: solid 2px black;
-  background-color: #282828;
-  color: #ffffff;
-  width: fit-content;
-  margin-inline: auto;
-  margin-top: 37vh;
-}
-.satoshi h1 {
-  text-align: center;
-  margin-block: 0.5rem;
-  font-size: 2.5rem;
-}
-.satoshi span {
-  background-color: black;
-  padding: 0.35rem 0.65rem;
-  margin: 0 0.18rem;
-  border-radius: 10%;
-  font-weight: bold;
-  font-size: 3.5rem;
-}
-.satoshi span:nth-child(2) {
-  background-color: inherit;
-  padding: 0;
-  margin: 0;
-}
-.satoshi span:nth-last-of-type(1) {
-  font-weight: normal;
-}
-.satoshi > div{
-  border-top: 3px solid #000000;
-  padding: 1.5rem 2rem;
-}
 .graph_container {
   display: flex;
   position: relative;
   border-top: dashed 3px #000000;
   height: 993px;
+  margin-top: 17.5px;
 }
 .depreciation_info {
   padding: 7rem 9% 5.5rem;
@@ -91,9 +31,30 @@
   text-transform: uppercase;
 }
 .depreciation_container {
-  background-color: #E6E6E6;
-  background-image: linear-gradient(#6CA7D9 100%, rgba(255,255,255,0) 0%);
-  background-size: 9%;
+  background-image:
+    linear-gradient(#6CA7D9 100%, rgba(255,255,255,0) 0%),
+    linear-gradient(#F5B42A 60%, rgba(255,255,255,0) 0%),
+    linear-gradient(#F5B42A 60%, rgba(255,255,255,0) 0%),
+    linear-gradient(#F5B42A 60%, rgba(255,255,255,0) 0%),
+    linear-gradient(#F5B42A 60%, rgba(255,255,255,0) 0%),
+    linear-gradient(#F5B42A 60%, rgba(255,255,255,0) 0%),
+    linear-gradient(#F5B42A 60%, rgba(255,255,255,0) 0%);
+  background-position:
+    0,
+    calc(22% - 1.5px),
+    calc(35% - 1px),
+    calc(48% - 1px),
+    calc(61% - 1px),
+    calc(74%),
+    calc(87%);
+  background-size:
+    9%,
+    2px 8px,
+    2px 8px,
+    2px 8px,
+    2px 8px,
+    2px 8px,
+    2px 8px;
   background-repeat: repeat-y;
 }
 .depreciation_bills {
@@ -125,7 +86,6 @@
   flex-Direction: column;
   justify-content: center;
   position: absolute;
-  bottom: 0;
 }
 .depreciation_bills div:nth-last-of-type(1) {
   position: relative;
@@ -217,24 +177,6 @@
   min-height: calc(30px * 1.2);
   left: calc(87% - 12%/2);
 }
-.stickySpace {
-  height: 2.75vw;
-  min-height: 17.5px;
-  background: 
-    linear-gradient(#6CA7D9 0 0) top left,
-    linear-gradient(#E6E6E6 0 0) top left calc(9vw - 1.5px)
-  ;
-  background-size:
-    9% 100%,
-    100% 100%
-  ;
-  background-repeat:
-    no-repeat,
-    no-repeat
-  ;
-  display: flex;
-  width: 100%;
-}
 .coin {
   position: absolute;
   width: 35px;
@@ -286,14 +228,13 @@
   width: calc(57px);
 }
 .box {
-  border-right: dashed 2px #F5B42A;
+  border-right: dashed 2px #00000000;
   width: 13%;
   position: relative;
 }
 .box:nth-child(1) {
   width: 9%;
   border-right: inherit;
-  background-color: #6CA7D9;
 }
 .box:nth-child(8) {
   border-right: inherit;
@@ -896,6 +837,7 @@
 @media screen and (min-width: 480px) {
   .graph_container {
     height: auto;
+    margin-top: 2.75vw;
   }
   .graph_container .box:nth-of-type(2) {
     padding-bottom: 5.25%;
@@ -1229,9 +1171,6 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .progress_Horse {
-    width: inherit;
-  }
   .depreciation_bills span:nth-of-type(1) {
     font-size: 1rem;
   }
@@ -1240,11 +1179,6 @@
   }
   .depreciation_bills div span:nth-last-of-type(1):nth-of-type(1) {
     font-size: 1rem;
-  }
-  .bill1 {
-    width: 4vw;
-    height: 4vw;
-    left: calc(9% - 4vw/2);
   }
   .coin {
     width: 65%;
@@ -1396,13 +1330,5 @@
   }
   .year19 {
     top: calc(75.52% - 0.96875rem);
-  }
-}
-@media screen and (min-width: 1369px) {
-  .progress_Img  {
-    left: calc((100vw - 1369px) /2)
-  }
-  .progress_Horse {
-    left: calc(((100vw - 1369px) /2) + 15px)
   }
 }
