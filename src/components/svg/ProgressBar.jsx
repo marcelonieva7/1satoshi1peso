@@ -1,6 +1,6 @@
 import Path, { Svg, Line, Rect } from 'react-svg-path';
 import useWindowDimensions from '../../hooks/useWindowDimensions';
-import { cls6, progress_Horse, container, bar } from '../../assets/styles/ProgressSvg.module.css'
+import { cls6, progress_Horse, container, bar } from '../../assets/styles/ProgressBar.module.css'
 
 const Path1 = ({widthRatio}) => {
   const path = new Path()
@@ -323,9 +323,13 @@ const Horse = ({ratio, width}) => {
   )
 }
 
-const ProgressSvg = ({className, ratio}) => {
+const ProgressBar = ({className, satoshi}) => {
   const { width } = useWindowDimensions();
   const widthRatio = width < 1368.59 ? width/1368.59 : 1
+  let ratio = 0.0001  // calcula el porcentaje de progreso para llegar a la meta de 1Satoshi = 1 peso.
+  if (satoshi) {
+    satoshi > 1 ? ratio = 1 : ratio = satoshi
+  }
   return (
     <div className={`${container} ${className}`}>
       <Horse ratio={ratio} width={width} />
@@ -353,4 +357,4 @@ const ProgressSvg = ({className, ratio}) => {
   )
 }
 
-export default ProgressSvg
+export default ProgressBar

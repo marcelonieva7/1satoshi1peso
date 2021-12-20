@@ -816,14 +816,21 @@
 .top {
   z-index: 99999 !important;
 }
+.questionZone {
+  position: relative;
+  border-bottom: solid 0.275rem #E26E2B;
+}
 .bill_10000pN {
   position: absolute;
   bottom: -40.5%;
   left: 44%;
   width: 12%
 }
-.bill_10000pN img {
-  width: 100%;
+.question {
+  position: absolute;
+  top: -20%;
+  left: 47.5%;
+  width: 5%;
 }
 .bg_question {
   width: calc(51.7%);
@@ -1161,9 +1168,6 @@
     bottom: -27.5%;
     left: 45%;
     width: 10%
-  }
-  .bill_10000pN img {
-    width: 100%;
   }
   .bg_question {
     width: calc(51.9%);
